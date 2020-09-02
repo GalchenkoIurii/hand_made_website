@@ -311,6 +311,41 @@ p.about_p {
 }
 /*-- end popups --*/
 
+/*-- services --*/
+.services-wrap {
+    padding: 5em 8em;
+}
+.services-grid {
+    text-align: center;
+    border-right: 1px solid #eee;
+}
+
+.services-grid:nth-child(3),
+.services-grid:nth-child(6) {
+    border-right: none;
+}
+
+.services-grid:nth-child(4),
+.services-grid:nth-child(5),
+.services-grid:nth-child(6) {
+    border-top: 1px solid #eee;
+}
+
+.services-grid h4 {
+    font-size: 1.2em;
+    color: #000000;
+    font-weight: 300;
+    line-height: 1.5em;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+
+.services-grid span {
+    font-size: 4em;
+    color: #333;
+}
+/*-- end services --*/
+
 /*-- contacts --*/
 .contacts {
     padding: 5em 8em;

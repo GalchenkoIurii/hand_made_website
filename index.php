@@ -121,7 +121,7 @@
 				</div>
 			</div>
 		</div>
-		<!-- popup-->
+		<!-- popups -->
         <div id="gal1" class="pop-overlay animate">
             <div class="popup">
                 <img src="images/g1.jpg" alt="Popup Image" class="img-fluid" />
@@ -130,9 +130,6 @@
                 <a class="close" href="#gallery">&times;</a>
             </div>
         </div>
-        <!-- //popup -->
-
-        <!-- popup-->
         <div id="gal2" class="pop-overlay animate">
             <div class="popup">
                 <img src="images/g2.jpg" alt="Popup Image" class="img-fluid" />
@@ -141,8 +138,6 @@
                 <a class="close" href="#gallery">&times;</a>
             </div>
         </div>
-        <!-- //popup -->
-        <!-- popup-->
         <div id="gal3" class="pop-overlay animate">
             <div class="popup">
                 <img src="images/about.jpg" alt="Popup Image" class="img-fluid" />
@@ -151,8 +146,6 @@
                 <a class="close" href="#gallery">&times;</a>
             </div>
         </div>
-        <!-- //popup3 -->
-        <!-- popup-->
         <div id="gal4" class="pop-overlay animate">
             <div class="popup">
                 <img src="images/g3.jpg" alt="Popup Image" class="img-fluid" />
@@ -161,8 +154,6 @@
                 <a class="close" href="#gallery">&times;</a>
             </div>
         </div>
-        <!-- //popup -->
-        <!-- popup-->
         <div id="gal5" class="pop-overlay animate">
             <div class="popup">
                 <img src="images/g4.jpg" alt="Popup Image" class="img-fluid" />
@@ -171,8 +162,6 @@
                 <a class="close" href="#gallery">&times;</a>
             </div>
         </div>
-        <!-- //popup -->
-        <!-- popup-->
         <div id="gal6" class="pop-overlay animate">
             <div class="popup">
                 <img src="images/g5.jpg" alt="Popup Image" class="img-fluid" />
@@ -181,9 +170,9 @@
                 <a class="close" href="#gallery">&times;</a>
             </div>
         </div>
-        <!-- //popup -->
+        <!-- end popups -->
 
-        <div class="wthree_pvtits-services align-w3" id="services">
+        <div class="services-wrap" id="services">
             <div class="container">
                 <div class="wthree_pvt_title text-center">
                     <h3 class="heading">Что я делаю</h3>
@@ -193,27 +182,27 @@
                         sit arcu sociis.</p>
                 </div>
                 <div class="wthree_pvtits-services-row row">
-                    <div class="col-lg-4 col-md-6 wthree_sgrid py-sm-5 py-4">
+                    <div class="col-lg-4 col-md-6 services-grid py-sm-5 py-4">
                         <span class="fa fa-cog p-sm-4 p-2"></span>
                         <h4 class="my-3">Lorem ipsum dolor </h4>
                     </div>
-                    <div class="col-lg-4 col-md-6 wthree_sgrid  py-sm-5 py-4">
+                    <div class="col-lg-4 col-md-6 services-grid py-sm-5 py-4">
                         <span class="fa fa-refresh p-sm-4 p-2"></span>
                         <h4 class="my-3"> sit amet sed diam nonumy </h4>
                     </div>
-                    <div class="col-lg-4 col-md-6 wthree_sgrid  py-sm-5 py-4">
+                    <div class="col-lg-4 col-md-6 services-grid py-sm-5 py-4">
                         <span class="fa fa-camera p-sm-4 p-2"></span>
                         <h4 class="my-3">eirmod tempor invidunt</h4>
                     </div>
-                    <div class="col-lg-4 col-md-6 wthree_sgrid   py-sm-5 py-4">
+                    <div class="col-lg-4 col-md-6 services-grid py-sm-5 py-4">
                         <span class="fa fa-bell-o p-sm-4 p-2"></span>
                         <h4 class="my-3"> ut labore et dolore </h4>
                     </div>
-                    <div class="col-lg-4 col-md-6  wthree_sgrid  py-sm-5 py-4">
+                    <div class="col-lg-4 col-md-6 services-grid py-sm-5 py-4">
                         <span class="fa fa fa-smile-o p-sm-4 p-2"></span>
                         <h4 class="my-3">magna aliquyam erat</h4>
                     </div>
-                    <div class="col-lg-4 col-md-6  wthree_sgrid   py-sm-5 py-4">
+                    <div class="col-lg-4 col-md-6 services-grid py-sm-5 py-4">
                         <span class="fa fa-plus-square-o  p-sm-4 p-2"></span>
                         <h4 class="my-3">At vero eos et accusam</h4>
                     </div>

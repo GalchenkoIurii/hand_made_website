@@ -131,3 +131,74 @@
         padding-top: 15px;
     }
 }
+
+@media screen and (max-width: 1440px) {
+
+}
+
+@media screen and (max-width: 1366px) {
+
+}
+
+@media screen and (max-width: 1280px) {
+    p.banp.mt-3 {
+        width: 74%;
+    }
+
+    .about-wrapper,
+    .gallery,
+    .services-wrap,
+    .contacts {
+        padding: 5em 5em;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    .sidenav {
+        width: 260px;
+    }
+
+    .side_top_right h6 {
+        padding: 0.5em 1em 0 0em;
+
+    }
+
+    .side_top_right p {
+        padding: 0.5em 2em 0 0em;
+    }
+
+    .main {
+        margin-left: 260px;
+    }
+
+    .about_p {
+        font-size: 1em !important;
+    }
+
+    .main_p {
+        font-size: 1em !important;
+    }
+
+    .contacts_grid {
+        width: 100%;
+    }
+
+    .popup {
+        width: 63%;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .main-banner h1 {
+        font-size: 2em !important;
+    }
+
+    p.banp {
+        width: 100%;
+        font-size:18px !important;
+    }
+
+    h2.heading, h3.heading {
+        font-size: 2.5em !important;
+    }
+}
