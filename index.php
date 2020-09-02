@@ -57,7 +57,7 @@
 		</header>
     </div>
     <div class="main" id="home">
-        <div class="banner-text-w3ls">
+        <div class="banner-text">
             <div class="container">
                 <div class="mx-auto text-center">
                     <h1>Nibh eleifend nulla nascetur pharetra
@@ -80,7 +80,7 @@
                 ullamcorper lacinia natoque aenean scelerisque.</p>
         </section>
 
-        <div class="news" id="gallery">
+        <div class="gallery" id="gallery">
             <div class="text-center">
                 <h2 class="w3_head">Галерея</h2>
                     <p class="main_p mb-5 text-center mx-auto">Nulla pellentesque mi non laoreet eleifend. Integer
@@ -88,33 +88,33 @@
                         tellus interdum. Amet nullam fringilla nibh nulla convallis ut venenatis purus sit arcu
                         sociis.</p>
             </div>
-			<div class="row news-grids">
+			<div class="row gallery-grids">
 				<div class="col-md-4 news-grids-left">
-					<div class="news_top">
+					<div class="gallery-top">
 						<a href="#gal1"><img src="images/g1.jpg" alt="news image" class="img-fluid"></a>
 						<h4>Nulla pellentesque</h4>
 					</div>
-					<div class="news_top mt-5">
+					<div class="gallery-top mt-5">
 						<a href="#gal2"><img src="images/g2.jpg" alt="news image" class="img-fluid"></a>
 						<h4>Nulla pellentesque</h4>
 					</div>
 				</div>
 				<div class="col-md-4 news-grids-middle">
-					<div class="news_top">
+					<div class="gallery-top">
 						<a href="#gal3"><img src="images/about.jpg" alt="news image" class="img-fluid"></a>
 						<h4>Nulla pellentesque</h4>
 					</div>
-					<div class="news_top mt-5">
+					<div class="gallery-top mt-5">
 						<a href="#gal4"><img src="images/g3.jpg" alt="news image" class="img-fluid"></a>
 						<h4>Nulla pellentesque</h4>
 					</div>
 				</div>
 				<div class="col-md-4 news-grids-right">
-					<div class="news_top">
+					<div class="gallery-top">
 						<a href="#gal5"><img src="images/g4.jpg" alt="news image" class="img-fluid"></a>
 						<h4>Nulla pellentesque</h4>
 					</div>
-					<div class="news_top mt-5">
+					<div class="gallery-top mt-5">
 						<a href="#gal6"><img src="images/g5.jpg" alt="news image" class="img-fluid"></a>
 						<h4>Nulla pellentesque</h4>
 					</div>
