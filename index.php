@@ -57,7 +57,7 @@
 		</header>
     </div>
     <div class="main" id="home">
-        <div class="banner-text">
+        <div class="main-banner">
             <div class="container">
                 <div class="mx-auto text-center">
                     <h1>Nibh eleifend nulla nascetur pharetra
@@ -69,10 +69,10 @@
             </div>
         </div>
 
-        <section class="slide-wrapper" id="about">
-            <h3 class="w3_head mb-5">Обо мне</h3>
+        <section class="about-wrapper" id="about">
+            <h3 class="heading mb-5">Обо мне</h3>
             <img src="images/1.jpg" class="img-fluid" alt="">
-            <p class="iner mt-5"> Nunc fermentum adipiscing tempor cursus nascetur adipiscing adipiscing. Primis
+            <p class="about_p mt-5"> Nunc fermentum adipiscing tempor cursus nascetur adipiscing adipiscing. Primis
                 aliquam mus lacinia lobortis phasellus suscipit. Fermentum lobortis non tristique ante proin sociis
                 accumsan lobortis. Auctor etiam porttitor phasellus tempus cubilia ultrices tempor sagittis. Nisl
                 fermentum consequat integer interdum integer purus sapien. Nibh eleifend nulla nascetur pharetra
@@ -82,7 +82,7 @@
 
         <div class="gallery" id="gallery">
             <div class="text-center">
-                <h2 class="w3_head">Галерея</h2>
+                <h2 class="heading">Галерея</h2>
                     <p class="main_p mb-5 text-center mx-auto">Nulla pellentesque mi non laoreet eleifend. Integer
                         porttitor mollisar curae suspendisse mauris posuere accumsan massa posuere lacus convallis
                         tellus interdum. Amet nullam fringilla nibh nulla convallis ut venenatis purus sit arcu
@@ -91,31 +91,31 @@
 			<div class="row gallery-grids">
 				<div class="col-md-4 news-grids-left">
 					<div class="gallery-top">
-						<a href="#gal1"><img src="images/g1.jpg" alt="news image" class="img-fluid"></a>
+						<a href="#gal1"><img src="images/g1.jpg" alt="gallery image" class="img-fluid"></a>
 						<h4>Nulla pellentesque</h4>
 					</div>
 					<div class="gallery-top mt-5">
-						<a href="#gal2"><img src="images/g2.jpg" alt="news image" class="img-fluid"></a>
+						<a href="#gal2"><img src="images/g2.jpg" alt="gallery image" class="img-fluid"></a>
 						<h4>Nulla pellentesque</h4>
 					</div>
 				</div>
 				<div class="col-md-4 news-grids-middle">
 					<div class="gallery-top">
-						<a href="#gal3"><img src="images/about.jpg" alt="news image" class="img-fluid"></a>
+						<a href="#gal3"><img src="images/about.jpg" alt="gallery image" class="img-fluid"></a>
 						<h4>Nulla pellentesque</h4>
 					</div>
 					<div class="gallery-top mt-5">
-						<a href="#gal4"><img src="images/g3.jpg" alt="news image" class="img-fluid"></a>
+						<a href="#gal4"><img src="images/g3.jpg" alt="gallery image" class="img-fluid"></a>
 						<h4>Nulla pellentesque</h4>
 					</div>
 				</div>
 				<div class="col-md-4 news-grids-right">
 					<div class="gallery-top">
-						<a href="#gal5"><img src="images/g4.jpg" alt="news image" class="img-fluid"></a>
+						<a href="#gal5"><img src="images/g4.jpg" alt="gallery image" class="img-fluid"></a>
 						<h4>Nulla pellentesque</h4>
 					</div>
 					<div class="gallery-top mt-5">
-						<a href="#gal6"><img src="images/g5.jpg" alt="news image" class="img-fluid"></a>
+						<a href="#gal6"><img src="images/g5.jpg" alt="gallery image" class="img-fluid"></a>
 						<h4>Nulla pellentesque</h4>
 					</div>
 				</div>
@@ -183,49 +183,49 @@
         </div>
         <!-- //popup -->
 
-    <div class="wthree_pvtits-services align-w3" id="services">
-        <div class="container">
-            <div class="wthree_pvt_title text-center">
-                <h3 class="w3_head">Что я делаю</h3>
-                <p class="main_p mb-5 text-center mx-auto">Nulla pellentesque mi non laoreet eleifend.
-                    Integer porttitor mollisar curae suspendisse mauris posuere accumsan massa posuere lacus
-                    convallis tellus interdum. Amet nullam fringilla nibh nulla convallis ut venenatis purus
-                    sit arcu sociis.</p>
-            </div>
-            <div class="wthree_pvtits-services-row row">
-                <div class="col-lg-4 col-md-6 wthree_sgrid py-sm-5 py-4">
-                    <span class="fa fa-cog p-sm-4 p-2"></span>
-                    <h4 class="my-3">Lorem ipsum dolor </h4>
+        <div class="wthree_pvtits-services align-w3" id="services">
+            <div class="container">
+                <div class="wthree_pvt_title text-center">
+                    <h3 class="heading">Что я делаю</h3>
+                    <p class="main_p mb-5 text-center mx-auto">Nulla pellentesque mi non laoreet eleifend.
+                        Integer porttitor mollisar curae suspendisse mauris posuere accumsan massa posuere lacus
+                        convallis tellus interdum. Amet nullam fringilla nibh nulla convallis ut venenatis purus
+                        sit arcu sociis.</p>
                 </div>
-                <div class="col-lg-4 col-md-6 wthree_sgrid  py-sm-5 py-4">
-                    <span class="fa fa-refresh p-sm-4 p-2"></span>
-                    <h4 class="my-3"> sit amet sed diam nonumy </h4>
-                </div>
-                <div class="col-lg-4 col-md-6 wthree_sgrid  py-sm-5 py-4">
-                    <span class="fa fa-camera p-sm-4 p-2"></span>
-                    <h4 class="my-3">eirmod tempor invidunt</h4>
-                </div>
-                <div class="col-lg-4 col-md-6 wthree_sgrid   py-sm-5 py-4">
-                    <span class="fa fa-bell-o p-sm-4 p-2"></span>
-                    <h4 class="my-3"> ut labore et dolore </h4>
-                </div>
-                <div class="col-lg-4 col-md-6  wthree_sgrid  py-sm-5 py-4">
-                    <span class="fa fa fa-smile-o p-sm-4 p-2"></span>
-                    <h4 class="my-3">magna aliquyam erat</h4>
-                </div>
-                <div class="col-lg-4 col-md-6  wthree_sgrid   py-sm-5 py-4">
-                    <span class="fa fa-plus-square-o  p-sm-4 p-2"></span>
-                    <h4 class="my-3">At vero eos et accusam</h4>
+                <div class="wthree_pvtits-services-row row">
+                    <div class="col-lg-4 col-md-6 wthree_sgrid py-sm-5 py-4">
+                        <span class="fa fa-cog p-sm-4 p-2"></span>
+                        <h4 class="my-3">Lorem ipsum dolor </h4>
+                    </div>
+                    <div class="col-lg-4 col-md-6 wthree_sgrid  py-sm-5 py-4">
+                        <span class="fa fa-refresh p-sm-4 p-2"></span>
+                        <h4 class="my-3"> sit amet sed diam nonumy </h4>
+                    </div>
+                    <div class="col-lg-4 col-md-6 wthree_sgrid  py-sm-5 py-4">
+                        <span class="fa fa-camera p-sm-4 p-2"></span>
+                        <h4 class="my-3">eirmod tempor invidunt</h4>
+                    </div>
+                    <div class="col-lg-4 col-md-6 wthree_sgrid   py-sm-5 py-4">
+                        <span class="fa fa-bell-o p-sm-4 p-2"></span>
+                        <h4 class="my-3"> ut labore et dolore </h4>
+                    </div>
+                    <div class="col-lg-4 col-md-6  wthree_sgrid  py-sm-5 py-4">
+                        <span class="fa fa fa-smile-o p-sm-4 p-2"></span>
+                        <h4 class="my-3">magna aliquyam erat</h4>
+                    </div>
+                    <div class="col-lg-4 col-md-6  wthree_sgrid   py-sm-5 py-4">
+                        <span class="fa fa-plus-square-o  p-sm-4 p-2"></span>
+                        <h4 class="my-3">At vero eos et accusam</h4>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-        <section class="wedo" id="contact">
-			<h3 class="w3_head mb-5">Контакты</h3>
-		   <p class="main_p mb-5 text-center mx-auto">Nulla pellentesque mi non laoreet eleifend. Integer
+        <section class="contacts" id="contact">
+			<h3 class="heading mb-5">Контакты</h3>
+            <p class="contacts_p mb-5 text-center mx-auto">Nulla pellentesque mi non laoreet eleifend. Integer
                porttitor mollisar curae suspendisse mauris posuere accumsan massa posuere lacus convallis
                tellus interdum. Amet nullam fringilla nibh nulla convallis ut venenatis purus sit arcu sociis.</p>
-		   <div class="contact_grid_right mt-5 mx-auto text-center">
+            <div class="contacts_grid mt-5 mx-auto text-center">
 				<form action="#" method="post">
 					<div class="row contact_top">
 						<div class="col-sm-6">
@@ -241,21 +241,19 @@
 						<input type="submit" value="Send Message">
 				</form>
 			</div>
-			<div class="cpy-right text-center">
-			<div class="follow">
-				<ul class="social_section_1info">
-					<li><a href="#"><span class="fa fa-facebook"></span></a></li>
-					<li><a href="#"><span class="fa fa-google-plus"></span></a></li>
-					<li><a href="#"><span class="fa fa-linkedin"></span></a></li>
-				</ul>
-			</div>
+			<div class="copyright text-center">
+                <div class="follow">
+                    <ul class="social_section">
+                        <li><a href="#"><span class="fa fa-facebook"></span></a></li>
+                        <li><a href="#"><span class="fa fa-google-plus"></span></a></li>
+                        <li><a href="#"><span class="fa fa-linkedin"></span></a></li>
+                    </ul>
+                </div>
 				<p>© 2020 Shamarina Iryna. All rights reserved | Design by
                     <a href="https://smarttsoft.com">STS</a>
 				</p>
 			</div>
 	    </section>
-
     </div>
-
 </body>
 </html>
