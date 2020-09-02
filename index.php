@@ -33,7 +33,7 @@
     <div class="sidenav">
 		<div class="row side_top">
 		<div class="col-4 side_top_left">
-			<img src="images/t3.jpg" alt="news image" class="img-fluid navimg">
+			<img src="images/photo.jpg" alt="news image" class="img-fluid navimg">
 		</div>
 		<div class="col-8 side_top_right">
 			<h6>Ирина Шамарина</h6>
@@ -64,7 +64,7 @@
                     <br>commodo mi augue interdum tellus.</h1>
 					<p class="banp mx-auto mt-3">Nulla pellentesque mi non laoreet eleifend. Integer porttitor
                         mollisar lorem, at molestie arcu</p>
-					<a class="btn btn-primary mt-lg-5 mt-3 agile-link-bnr" href="#about" role="button">Learn More</a>
+					<a class="btn btn-primary mt-lg-5 mt-3 agile-link-bnr" href="#about" role="button">Подробнее</a>
                 </div>
             </div>
         </div>
