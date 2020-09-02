@@ -14,20 +14,11 @@
     <meta charset="utf-8">
     <meta name="description" content="">
     <meta name="keywords" content="">
-    <script>
-        addEventListener("load", function () {
-            setTimeout(hideURLbar, 0);
-        }, false);
-
-        function hideURLbar() {
-            window.scrollTo(0, 1);
-        }
-    </script>
-
     <link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
     <link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900" rel="stylesheet">
     <link href="css/fontawesome-all.min.css" rel="stylesheet">
     <link href="css/style.css" type="text/css" rel="stylesheet" media="all">
+    <link href="css/media.css" type="text/css" rel="stylesheet" media="all">
 </head>
 <body>
     <div class="sidenav">
