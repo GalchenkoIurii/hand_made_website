@@ -82,31 +82,31 @@
 			<div class="row gallery-grids">
 				<div class="col-md-4 news-grids-left">
 					<div class="gallery-top">
-						<a href="#gal1"><img src="images/g1.jpg" alt="gallery image" class="img-fluid"></a>
+						<a href="#gal1"><img src="images/IMG_1.jpg" alt="gallery image" class="img-fluid"></a>
 						<h4>Nulla pellentesque</h4>
 					</div>
 					<div class="gallery-top mt-5">
-						<a href="#gal2"><img src="images/g2.jpg" alt="gallery image" class="img-fluid"></a>
+						<a href="#gal2"><img src="images/IMG_2.jpg" alt="gallery image" class="img-fluid"></a>
 						<h4>Nulla pellentesque</h4>
 					</div>
 				</div>
 				<div class="col-md-4 news-grids-middle">
 					<div class="gallery-top">
-						<a href="#gal3"><img src="images/about.jpg" alt="gallery image" class="img-fluid"></a>
+						<a href="#gal3"><img src="images/IMG_3.jpg" alt="gallery image" class="img-fluid"></a>
 						<h4>Nulla pellentesque</h4>
 					</div>
 					<div class="gallery-top mt-5">
-						<a href="#gal4"><img src="images/g3.jpg" alt="gallery image" class="img-fluid"></a>
+						<a href="#gal4"><img src="images/IMG_4.jpg" alt="gallery image" class="img-fluid"></a>
 						<h4>Nulla pellentesque</h4>
 					</div>
 				</div>
 				<div class="col-md-4 news-grids-right">
 					<div class="gallery-top">
-						<a href="#gal5"><img src="images/g4.jpg" alt="gallery image" class="img-fluid"></a>
+						<a href="#gal5"><img src="images/IMG_5.jpg" alt="gallery image" class="img-fluid"></a>
 						<h4>Nulla pellentesque</h4>
 					</div>
 					<div class="gallery-top mt-5">
-						<a href="#gal6"><img src="images/g5.jpg" alt="gallery image" class="img-fluid"></a>
+						<a href="#gal6"><img src="images/IMG_6.jpg" alt="gallery image" class="img-fluid"></a>
 						<h4>Nulla pellentesque</h4>
 					</div>
 				</div>
@@ -115,7 +115,7 @@
 		<!-- popups -->
         <div id="gal1" class="pop-overlay animate">
             <div class="popup">
-                <img src="images/g1.jpg" alt="Popup Image" class="img-fluid" />
+                <img src="images/IMG_1.jpg" alt="Popup Image" class="img-fluid" />
                 <p class="mt-4">Nulla viverra pharetra se, eget pulvinar neque pharetra ac int. placerat
                     placerat dolor.</p>
                 <a class="close" href="#gallery">&times;</a>
@@ -123,7 +123,7 @@
         </div>
         <div id="gal2" class="pop-overlay animate">
             <div class="popup">
-                <img src="images/g2.jpg" alt="Popup Image" class="img-fluid" />
+                <img src="images/IMG_2.jpg" alt="Popup Image" class="img-fluid" />
                 <p class="mt-4">Nulla viverra pharetra se, eget pulvinar neque pharetra ac int. placerat
                     placerat dolor.</p>
                 <a class="close" href="#gallery">&times;</a>
@@ -131,7 +131,7 @@
         </div>
         <div id="gal3" class="pop-overlay animate">
             <div class="popup">
-                <img src="images/about.jpg" alt="Popup Image" class="img-fluid" />
+                <img src="images/IMG_3.jpg" alt="Popup Image" class="img-fluid" />
                 <p class="mt-4">Nulla viverra pharetra se, eget pulvinar neque pharetra ac int. placerat
                     placerat dolor.</p>
                 <a class="close" href="#gallery">&times;</a>
@@ -139,7 +139,7 @@
         </div>
         <div id="gal4" class="pop-overlay animate">
             <div class="popup">
-                <img src="images/g3.jpg" alt="Popup Image" class="img-fluid" />
+                <img src="images/IMG_4.jpg" alt="Popup Image" class="img-fluid" />
                 <p class="mt-4">Nulla viverra pharetra se, eget pulvinar neque pharetra ac int. placerat
                     placerat dolor.</p>
                 <a class="close" href="#gallery">&times;</a>
@@ -147,7 +147,7 @@
         </div>
         <div id="gal5" class="pop-overlay animate">
             <div class="popup">
-                <img src="images/g4.jpg" alt="Popup Image" class="img-fluid" />
+                <img src="images/IMG_5.jpg" alt="Popup Image" class="img-fluid" />
                 <p class="mt-4">Nulla viverra pharetra se, eget pulvinar neque pharetra ac int. placerat
                     placerat dolor.</p>
                 <a class="close" href="#gallery">&times;</a>
@@ -155,7 +155,7 @@
         </div>
         <div id="gal6" class="pop-overlay animate">
             <div class="popup">
-                <img src="images/g5.jpg" alt="Popup Image" class="img-fluid" />
+                <img src="images/IMG_6.jpg" alt="Popup Image" class="img-fluid" />
                 <p class="mt-4">Nulla viverra pharetra se, eget pulvinar neque pharetra ac int. placerat
                     placerat dolor.</p>
                 <a class="close" href="#gallery">&times;</a>
