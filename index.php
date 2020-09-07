@@ -74,8 +74,8 @@ require_once('db.php');
     </section>
 
     <?php
-        $query = "SELECT * FROM gallery";
-        $gallery_items = $pdo->query($query)->fetchAll();
+    $query = "SELECT * FROM gallery";
+    $gallery_items = $pdo->query($query)->fetchAll();
     ?>
     <div class="gallery" id="gallery">
         <div class="text-center">
@@ -86,39 +86,39 @@ require_once('db.php');
                 sociis.</p>
         </div>
         <div class="row gallery-grids">
-        <?php
+            <?php
             foreach ($gallery_items as $item) { ?>
                 <div class="gallery-top mt-5">
-                    <a href="#gal<?= $item['id'];?>"><img src="<?= $item['img'];?>" alt="<?= $item['title'];?>"
-                                                          class="img-fluid"></a>
-                    <h4><?= $item['title'];?></h4>
+                    <a href="#gal<?= $item['id']; ?>">
+                        <img src="<?= $item['img']; ?>" alt="<?= $item['title']; ?>" class="img-fluid"></a>
+                    <h4><?= $item['title']; ?></h4>
                 </div>
             <?php } ?>
         </div>
     </div>
     <!-- popups -->
     <?php
-        foreach ($gallery_items as $item) { ?>
-            <div id="gal<?= $item['id'];?>" class="pop-overlay animate">
-                <div class="popup">
-                    <img src="<?= $item['img'];?>" alt="<?= $item['title']; ?>" class="img-fluid"/>
-                    <p class="mt-4"><?= $item['description']; ?></p>
-                    <a class="close" href="#gallery">&times;</a>
-                </div>
+    foreach ($gallery_items as $item) { ?>
+        <div id="gal<?= $item['id']; ?>" class="pop-overlay animate">
+            <div class="popup">
+                <img src="<?= $item['img']; ?>" alt="<?= $item['title']; ?>" class="img-fluid"/>
+                <p class="mt-4"><?= $item['description']; ?></p>
+                <a class="close" href="#gallery">&times;</a>
             </div>
-        <?php } ?>
+        </div>
+    <?php } ?>
     <!-- end popups -->
 
     <div class="services-wrap" id="services">
         <div class="container">
-            <div class="wthree_pvt_title text-center">
+            <div class="text-center">
                 <h3 class="heading">Что я делаю</h3>
                 <p class="main_p mb-5 text-center mx-auto">Nulla pellentesque mi non laoreet eleifend.
                     Integer porttitor mollisar curae suspendisse mauris posuere accumsan massa posuere lacus
                     convallis tellus interdum. Amet nullam fringilla nibh nulla convallis ut venenatis purus
                     sit arcu sociis.</p>
             </div>
-            <div class="wthree_pvtits-services-row row">
+            <div class="row">
                 <div class="col-lg-4 col-md-6 services-grid py-sm-5 py-4">
                     <span class="fa fa-cog p-sm-4 p-2"></span>
                     <h4 class="my-3">Lorem ipsum dolor </h4>
@@ -140,7 +140,7 @@ require_once('db.php');
                     <h4 class="my-3">magna aliquyam erat</h4>
                 </div>
                 <div class="col-lg-4 col-md-6 services-grid py-sm-5 py-4">
-                    <span class="fa fa-plus-square-o  p-sm-4 p-2"></span>
+                    <span class="fa fa-plus-square-o p-sm-4 p-2"></span>
                     <h4 class="my-3">At vero eos et accusam</h4>
                 </div>
             </div>
