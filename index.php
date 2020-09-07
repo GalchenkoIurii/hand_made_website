@@ -76,10 +76,6 @@ require_once('db.php');
     <?php
         $query = "SELECT * FROM gallery";
         $gallery_items = $pdo->query($query)->fetchAll();
-
-        echo '<pre>';
-        print_r($gallery_items);
-        echo '</pre>';
     ?>
     <div class="gallery" id="gallery">
         <div class="text-center">

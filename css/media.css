@@ -5,6 +5,12 @@
     }
 }
 
+@media screen and (min-width: 1080px) {
+    .gallery-grids h4 {
+        font-size: 1em;
+    }
+}
+
 @media all and (max-width: 768px) {
     #logo {
         display: block;
