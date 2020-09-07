@@ -18,7 +18,7 @@ require_once('db.php');
     <meta name="keywords" content="">
     <link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
     <link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900" rel="stylesheet">
-    <link href="css/fontawesome-all.min.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/6ca0a9715d.js" crossorigin="anonymous"></script>
     <link href="css/style.css" type="text/css" rel="stylesheet" media="all">
     <link href="css/media.css" type="text/css" rel="stylesheet" media="all">
 </head>
@@ -120,23 +120,23 @@ require_once('db.php');
             </div>
             <div class="row">
                 <div class="col-lg-4 col-md-6 services-grid py-sm-5 py-4">
-                    <span class="fa fa-cog p-sm-4 p-2"></span>
+                    <span class="fa fa-gifts p-sm-4 p-2"></span>
                     <h4 class="my-3">Lorem ipsum dolor </h4>
                 </div>
                 <div class="col-lg-4 col-md-6 services-grid py-sm-5 py-4">
-                    <span class="fa fa-refresh p-sm-4 p-2"></span>
+                    <span class="fa fa-heart p-sm-4 p-2"></span>
                     <h4 class="my-3"> sit amet sed diam nonumy </h4>
                 </div>
                 <div class="col-lg-4 col-md-6 services-grid py-sm-5 py-4">
-                    <span class="fa fa-camera p-sm-4 p-2"></span>
+                    <span class="fa fa-home p-sm-4 p-2"></span>
                     <h4 class="my-3">eirmod tempor invidunt</h4>
                 </div>
                 <div class="col-lg-4 col-md-6 services-grid py-sm-5 py-4">
-                    <span class="fa fa-bell-o p-sm-4 p-2"></span>
+                    <span class="fa fa-tree p-sm-4 p-2"></span>
                     <h4 class="my-3"> ut labore et dolore </h4>
                 </div>
                 <div class="col-lg-4 col-md-6 services-grid py-sm-5 py-4">
-                    <span class="fa fa fa-smile-o p-sm-4 p-2"></span>
+                    <span class="fa fa fa-candy-cane p-sm-4 p-2"></span>
                     <h4 class="my-3">magna aliquyam erat</h4>
                 </div>
                 <div class="col-lg-4 col-md-6 services-grid py-sm-5 py-4">
