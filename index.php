@@ -84,93 +84,33 @@ require_once('db.php');
     <div class="gallery" id="gallery">
         <div class="text-center">
             <h2 class="heading">Галерея</h2>
-            <p class="main_p mb-5 text-center mx-auto">Nulla pellentesque mi non laoreet eleifend. Integer
+            <p class="main_p text-center mx-auto">Nulla pellentesque mi non laoreet eleifend. Integer
                 porttitor mollisar curae suspendisse mauris posuere accumsan massa posuere lacus convallis
                 tellus interdum. Amet nullam fringilla nibh nulla convallis ut venenatis purus sit arcu
                 sociis.</p>
         </div>
         <div class="row gallery-grids">
-            <div class="col-md-4 news-grids-left">
-                <div class="gallery-top">
-                    <a href="#gal1"><img src="images/IMG_1.jpg" alt="gallery image" class="img-fluid"></a>
-                    <h4>Nulla pellentesque</h4>
-                </div>
+        <?php
+            foreach ($gallery_items as $item) { ?>
                 <div class="gallery-top mt-5">
-                    <a href="#gal2"><img src="images/IMG_2.jpg" alt="gallery image" class="img-fluid"></a>
-                    <h4>Nulla pellentesque</h4>
+                    <a href="#gal<?= $item['id'];?>"><img src="<?= $item['img'];?>" alt="<?= $item['title'];?>"
+                                                          class="img-fluid"></a>
+                    <h4><?= $item['title'];?></h4>
                 </div>
-            </div>
-            <div class="col-md-4 news-grids-middle">
-                <div class="gallery-top">
-                    <a href="#gal3"><img src="images/IMG_3.jpg" alt="gallery image" class="img-fluid"></a>
-                    <h4>Nulla pellentesque</h4>
-                </div>
-                <div class="gallery-top mt-5">
-                    <a href="#gal4"><img src="images/IMG_4.jpg" alt="gallery image" class="img-fluid"></a>
-                    <h4>Nulla pellentesque</h4>
-                </div>
-            </div>
-            <div class="col-md-4 news-grids-right">
-                <div class="gallery-top">
-                    <a href="#gal5"><img src="images/IMG_5.jpg" alt="gallery image" class="img-fluid"></a>
-                    <h4>Nulla pellentesque</h4>
-                </div>
-                <div class="gallery-top mt-5">
-                    <a href="#gal6"><img src="images/IMG_6.jpg" alt="gallery image" class="img-fluid"></a>
-                    <h4>Nulla pellentesque</h4>
-                </div>
-            </div>
+            <?php } ?>
         </div>
     </div>
     <!-- popups -->
-    <div id="gal1" class="pop-overlay animate">
-        <div class="popup">
-            <img src="images/IMG_1.jpg" alt="Popup Image" class="img-fluid"/>
-            <p class="mt-4">Nulla viverra pharetra se, eget pulvinar neque pharetra ac int. placerat
-                placerat dolor.</p>
-            <a class="close" href="#gallery">&times;</a>
-        </div>
-    </div>
-    <div id="gal2" class="pop-overlay animate">
-        <div class="popup">
-            <img src="images/IMG_2.jpg" alt="Popup Image" class="img-fluid"/>
-            <p class="mt-4">Nulla viverra pharetra se, eget pulvinar neque pharetra ac int. placerat
-                placerat dolor.</p>
-            <a class="close" href="#gallery">&times;</a>
-        </div>
-    </div>
-    <div id="gal3" class="pop-overlay animate">
-        <div class="popup">
-            <img src="images/IMG_3.jpg" alt="Popup Image" class="img-fluid"/>
-            <p class="mt-4">Nulla viverra pharetra se, eget pulvinar neque pharetra ac int. placerat
-                placerat dolor.</p>
-            <a class="close" href="#gallery">&times;</a>
-        </div>
-    </div>
-    <div id="gal4" class="pop-overlay animate">
-        <div class="popup">
-            <img src="images/IMG_4.jpg" alt="Popup Image" class="img-fluid"/>
-            <p class="mt-4">Nulla viverra pharetra se, eget pulvinar neque pharetra ac int. placerat
-                placerat dolor.</p>
-            <a class="close" href="#gallery">&times;</a>
-        </div>
-    </div>
-    <div id="gal5" class="pop-overlay animate">
-        <div class="popup">
-            <img src="images/IMG_5.jpg" alt="Popup Image" class="img-fluid"/>
-            <p class="mt-4">Nulla viverra pharetra se, eget pulvinar neque pharetra ac int. placerat
-                placerat dolor.</p>
-            <a class="close" href="#gallery">&times;</a>
-        </div>
-    </div>
-    <div id="gal6" class="pop-overlay animate">
-        <div class="popup">
-            <img src="images/IMG_6.jpg" alt="Popup Image" class="img-fluid"/>
-            <p class="mt-4">Nulla viverra pharetra se, eget pulvinar neque pharetra ac int. placerat
-                placerat dolor.</p>
-            <a class="close" href="#gallery">&times;</a>
-        </div>
-    </div>
+    <?php
+        foreach ($gallery_items as $item) { ?>
+            <div id="gal<?= $item['id'];?>" class="pop-overlay animate">
+                <div class="popup">
+                    <img src="<?= $item['img'];?>" alt="<?= $item['title']; ?>" class="img-fluid"/>
+                    <p class="mt-4"><?= $item['description']; ?></p>
+                    <a class="close" href="#gallery">&times;</a>
+                </div>
+            </div>
+        <?php } ?>
     <!-- end popups -->
 
     <div class="services-wrap" id="services">
