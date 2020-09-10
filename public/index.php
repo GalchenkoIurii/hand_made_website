@@ -6,4 +6,4 @@
  * Time: 17:57
  */
 
-echo "Front Controller";
+require_once dirname(__DIR__) . '/config/init.php';
