@@ -17,5 +17,6 @@ class App
     {
         $query = trim($_SERVER['QUERY_STRING'], '/');
         session_start();
+        self::$app = Registry::instance();
     }
 }
