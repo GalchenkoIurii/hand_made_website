@@ -39,6 +39,6 @@
         </div>
     </header>
 </div>
-
+<?=$content;?>
 </body>
 </html>

@@ -34,4 +34,24 @@ class View
             $this->layout = $layout ?: LAYOUT;
         }
     }
+
+    public function render($data)
+    {
+        $viewFile = APP . "/views/{$this->prefix}{$this->controller}/{$this->view}.php";
+        if (is_file($viewFile)) {
+            ob_start();
+            require_once $viewFile;
+            $content = ob_get_clean();
+        } else {
+            throw new \Exception("View {$viewFile} not found", 500);
+        }
+        if (false !== $this->layout) {
+            $layoutFile = APP . "/views/layouts/{$this->layout}.php";
+            if (is_file($layoutFile)) {
+                require_once $layoutFile;
+            } else {
+                throw new \Exception("Template {$this->layout} not found", 500);
+            }
+        }
+    }
 }
