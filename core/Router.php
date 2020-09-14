@@ -28,4 +28,37 @@ class Router
     {
         return self::$route;
     }
+
+    public static function dispatch($url)
+    {
+        if (self::matchRoute($url)) {
+            echo 'ok';
+        } else {
+            echo 'no';
+        }
+    }
+
+    public static function matchRoute($url)
+    {
+        foreach (self::$routes as $pattern => $route) {
+            if (preg_match("#{$pattern}#", $url, $matches)) {
+                foreach ($matches as $k => $v) {
+                    if (is_string($k)) {
+                        $route[$k] = $v;
+                    }
+                }
+                if (empty($route['action'])) {
+                    $route['action'] = 'index';
+                }
+                if (!isset($route['prefix'])) {
+                    $route['prefix'] = '';
+                } else {
+                    $route['prefix'] .= '\\';
+                }
+                self::$route = $route;
+                return true;
+            }
+        }
+        return false;
+    }
 }
