@@ -3,15 +3,15 @@
  * Created by PhpStorm.
  * User: Iurii
  * Date: 14.09.2020
- * Time: 12:37
+ * Time: 14:55
  */
 
 namespace app\controllers;
 
 
-class MainController extends AppController
+use core\base\Controller;
+
+class AppController extends Controller
 {
-    public function indexAction()
-    {
-    }
+
 }
