@@ -23,8 +23,9 @@
     </section>
 
     <?php
-    //$query = "SELECT * FROM gallery";
-    //$gallery_items = $pdo->query($query)->fetchAll();
+    require_once ROOT . '/db.php';
+    $query = "SELECT * FROM gallery";
+    $gallery_items = $pdo->query($query)->fetchAll();
     ?>
     <div class="gallery" id="gallery">
         <div class="text-center">

@@ -54,4 +54,12 @@ class View
             }
         }
     }
+
+    public function getMeta()
+    {
+        $output = '<title>' . $this->meta['title'] . '</title>';
+        $output .= '<meta name="description" content="' . $this->meta['description'] . '">';
+        $output .= '<meta name="keywords" content="' . $this->meta['keywords'] . '">';
+        return $output;
+    }
 }

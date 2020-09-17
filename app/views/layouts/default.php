@@ -1,11 +1,9 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-    <title></title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
-    <meta name="description" content="">
-    <meta name="keywords" content="">
+    <?=$this->getMeta();?>
     <link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
     <link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900" rel="stylesheet">
     <script src="https://kit.fontawesome.com/6ca0a9715d.js" crossorigin="anonymous"></script>
