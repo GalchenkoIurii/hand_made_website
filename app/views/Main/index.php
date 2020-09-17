@@ -10,7 +10,6 @@
             </div>
         </div>
     </div>
-
     <section class="about-wrapper" id="about">
         <h3 class="heading mb-5">Обо мне</h3>
         <img src="images/about.jpg" class="img-fluid" alt="">

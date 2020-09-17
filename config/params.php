@@ -8,7 +8,7 @@
 
 return [
     'admin_email' => 'admin@gmail.com',
-    'site_name' => 'Hand Made',
+    'site_name' => 'Хэндмэйд',
     'pagination' => 5,
     'smtp_login' => '',
     'smtp_password' => ''
