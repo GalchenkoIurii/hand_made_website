@@ -13,14 +13,20 @@ use core\App;
 
 class MainController extends AppController
 {
+    public function __construct($route)
+    {
+        parent::__construct($route);
+    }
+
     public function indexAction()
     {
         $this->setMeta(App::$app->getProperty('site_name'),
             'Изделия ручной работы',
             'Хэндмэйд, ручная работа, игрушки, подарки');
 
-        $data1Name = 'data1Value';
-        $data2Name = 'data2Value';
-        $this->set(compact('data1Name', 'data2Name'));
+        $query = "SELECT * FROM gallery";
+        $gallery_items = $this->appModel->getData($query);
+
+        $this->set(compact('gallery_items'));
     }
 }
