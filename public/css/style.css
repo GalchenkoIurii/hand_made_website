@@ -184,25 +184,25 @@ nav a:hover {
     color: #fff;
     font-size: 2.5em;
     letter-spacing: 2px;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 p.banp.mt-3 {
     font-size: 22px;
     letter-spacing: 2px;
-    color: rgba(238, 238, 238, 0.61);
+    color: rgba(238, 238, 238, 0.9);
     width: 50%;
     font-weight: 300;
 }
 .agile-link-bnr {
     padding: 10px 40px;
-    color: rgba(243, 243, 243, 0.65);
+    color: rgba(243, 243, 243, 0.9);
     font-weight: 600;
     letter-spacing: 2px;
     font-size: 14px;
     text-transform: uppercase;
     background: none;
-    border: 1px solid rgba(255, 255, 255, 0.5);
+    border: 1px solid rgba(255, 255, 255, 0.7);
 }
 .agile-link-bnr:hover {
     background:#ff4f81;
