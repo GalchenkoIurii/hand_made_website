@@ -99,16 +99,16 @@
             <form action="#" method="post">
                 <div class="row contact_top">
                     <div class="col-sm-6">
-                        <input type="text" name="Name" placeholder="Name" required="">
+                        <input type="text" name="name" id="name" placeholder="Имя" required="">
                     </div>
                     <div class="col-sm-6">
-                        <input type="email" name="Email" placeholder="Email" required="">
+                        <input type="email" name="email" id="email" placeholder="Email" required="">
                     </div>
                 </div>
-                <input type="text" name="Name" placeholder="Name" required="">
-                <textarea name="Message" onfocus="this.value = '';" onblur="if (this.value == '')
-						{this.value = 'Message...';}" required="">Message...</textarea>
-                <input type="submit" value="Send Message">
+                <input type="text" name="phone" id="phone" placeholder="Номер телефона" required="">
+                <textarea name="message" id="message" onfocus="this.value = '';" onblur="if (this.value == '')
+						{this.value = 'Сообщение...';}" required="">Сообщение...</textarea>
+                <input type="submit" value="Отправить">
             </form>
         </div>
         <div class="copyright text-center">
