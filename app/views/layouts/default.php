@@ -1,11 +1,10 @@
-<?php session_start(); ?>
 <!DOCTYPE html>
 <html lang="ru">
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
     <?=$this->getMeta();?>
-    <link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900" rel="stylesheet">
     <script src="https://kit.fontawesome.com/6ca0a9715d.js" crossorigin="anonymous"></script>
     <link href="css/style.css" type="text/css" rel="stylesheet" media="all">
@@ -39,5 +38,6 @@
     </header>
 </div>
 <?=$content;?>
+<div class="loader"><img src="images/loader.svg" alt=""></div>
 </body>
 </html>

@@ -22,5 +22,9 @@ $fields = [
     'message' => [
         'field_name' => 'Сообщение',
         'required' => 1
+    ],
+    'captcha' => [
+        'field_name' => 'Капча',
+        'required' => 1
     ]
 ];
