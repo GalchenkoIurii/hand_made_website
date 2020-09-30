@@ -96,20 +96,9 @@
             porttitor mollisar curae suspendisse mauris posuere accumsan massa posuere lacus convallis
             tellus interdum. Amet nullam fringilla nibh nulla convallis ut venenatis purus sit arcu sociis.</p>
         <div class="contacts_grid mt-5 mx-auto text-center">
-            <form action="#" method="post">
-                <div class="row contact_top">
-                    <div class="col-sm-6">
-                        <input type="text" name="name" id="name" placeholder="Имя" required="">
-                    </div>
-                    <div class="col-sm-6">
-                        <input type="email" name="email" id="email" placeholder="Email" required="">
-                    </div>
-                </div>
-                <input type="text" name="phone" id="phone" placeholder="Номер телефона" required="">
-                <textarea name="message" id="message" onfocus="this.value = '';" onblur="if (this.value == '')
-						{this.value = 'Сообщение...';}" required="">Сообщение...</textarea>
-                <input type="submit" value="Отправить">
-            </form>
+            <?php
+                require_once ROOT . '/form/form.php';
+            ?>
         </div>
         <div class="copyright text-center">
             <div class="follow">
