@@ -24,3 +24,14 @@ function validate($data) {
     }
     return $errors;
 }
+
+function set_captcha() {
+    $num1 = rand(0, 10);
+    $num2 = rand(0, 10);
+    $_SESSION['captcha'] = $num1 + $num2;
+    return "Введите сумму {$num1} + {$num2}";
+}
+
+function check_captcha($result) {
+    return $_SESSION['captcha'] == $result;
+}
