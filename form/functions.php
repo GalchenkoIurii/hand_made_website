@@ -14,3 +14,13 @@ function load($data) {
     }
     return $data;
 }
+
+function validate($data) {
+    $errors = '';
+    foreach ($data as $k => $v) {
+        if ($data[$k]['required'] && empty($data[$k]['value'])) {
+            $errors .= "<li>Не заполнено поле {$data[$k]['field_name']}</li>";
+        }
+    }
+    return $errors;
+}
