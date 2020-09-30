@@ -1,20 +1,4 @@
-<?php
-    require_once __DIR__ . '/data.php';
-    require_once __DIR__ . '/functions.php';
-
-    if (!empty($_POST)) {
-        print_r($_POST);
-        $fields = load($fields);
-        //echo '<pre>';print_r($fields);echo '</pre>';
-
-        if ($errors = validate($fields)) {
-            echo '<pre>';print_r($errors);echo '</pre>';
-        } else {
-            echo 'OK';
-        }
-    }
-?>
-<form action="#" method="post" class="needs-validation" novalidate>
+<form id="form" action="" method="post" class="needs-validation" novalidate>
     <div class="row contact_top">
         <div class="col-sm-6">
             <input type="text" name="name" id="name" placeholder="Имя" required>

@@ -10,7 +10,24 @@
                     event.preventDefault();
                     event.stopPropagation();
                 } else {
-                    alert('Ok');
+                    $.ajax({
+                        url: 'index.php',
+                        type: 'POST',
+                        data: $('#form').serialize(),
+                        beforeSend: function() {
+                            $('.loader').fadeIn();
+                        },
+                        success: function(response) {
+                            $('.loader').fadeOut('slow', function() {
+                                console.log(response);
+                                let result = JSON.parse(response);
+                                console.log(result);
+                            });
+                        },
+                        error: function() {
+                            alert('Error');
+                        }
+                    });
                     event.preventDefault();
                     event.stopPropagation();
                 }

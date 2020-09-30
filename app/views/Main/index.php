@@ -1,3 +1,19 @@
+<?php
+require_once ROOT . '/form/data.php';
+require_once ROOT . '/form/functions.php';
+
+if (!empty($_POST)) {
+    $fields = load($fields);
+
+    if ($errors = validate($fields)) {
+        $res = ['answer' => 'error', 'errors' => $errors];
+    } else {
+        $res = ['answer' => 'ok', 'data' => $fields, 'captcha' => set_captcha()];
+        // sending email
+    }
+    exit(json_encode($res));
+}
+?>
 <div class="main" id="home">
     <div class="main-banner">
         <div class="container">
