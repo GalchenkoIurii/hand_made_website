@@ -407,10 +407,15 @@ p.contacts_p {
     transition: 0.5s all;
     font-weight: 700;
     cursor: pointer;
+    margin-top: 1em;
 }
 
 .contacts_grid input[type="submit"]:hover {
     background-color: #000;
+}
+
+.contacts_grid label {
+    margin-top: 1em;
 }
 
 .follow {
@@ -440,6 +445,10 @@ ul.social_section li a {
 
 ul.social_section a:hover {
     color: #fff;
+}
+
+.social_section span {
+    line-height: 2em;
 }
 
 .copyright p{

@@ -25,5 +25,7 @@
     </div>
     <input type="text" name="phone" id="phone" placeholder="Номер телефона">
     <textarea name="message" id="message" placeholder="Сообщение..." required></textarea>
+    <label for="captcha">Заполните капчу</label>
+    <input type="text" name="captcha" id="captcha" placeholder="<?=set_captcha();?>">
     <input type="submit" value="Отправить">
 </form>
