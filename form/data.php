@@ -25,6 +25,19 @@ $fields = [
     ],
     'captcha' => [
         'field_name' => 'Капча',
-        'required' => 1
+        'required' => 1,
+        'mailable' => 0
     ]
+];
+
+$mail_settings = [
+    'host' => 'smtp.mailtrap.io',
+    'smtp_auth' => true,
+    'username' => 'eb29dee74acb43', //mail_name@gmail.com
+    'password' => '02aec395b56a3c',
+    'smtp_secure' => null, //ssl //tls
+    'port' => 2525,
+    'from_email' => '33d2a05232-0c830b@inbox.mailtrap.io', //mail_name@gmail.com
+    'from_name' => 'HandMade site',
+    'to_email' => 'admin@mail.com'
 ];

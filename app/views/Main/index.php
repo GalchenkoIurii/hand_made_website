@@ -8,8 +8,11 @@ if (!empty($_POST)) {
     if ($errors = validate($fields)) {
         $res = ['answer' => 'error', 'errors' => $errors];
     } else {
-        $res = ['answer' => 'ok', 'data' => $fields, 'captcha' => set_captcha()];
-        // sending email
+        if (!send_mail($fields, $mail_settings)) {
+            $res = ['answer' => 'error', 'errors' => 'Ошибка отправки сообщения'];
+        } else {
+            $res = ['answer' => 'ok', 'captcha' => set_captcha()];
+        }
     }
     exit(json_encode($res));
 }
@@ -113,7 +116,7 @@ if (!empty($_POST)) {
             tellus interdum. Amet nullam fringilla nibh nulla convallis ut venenatis purus sit arcu sociis.</p>
         <div class="contacts_grid mt-5 mx-auto text-center">
             <?php
-                require_once ROOT . '/form/form.php';
+            require_once ROOT . '/form/form.php';
             ?>
         </div>
         <div class="copyright text-center">
