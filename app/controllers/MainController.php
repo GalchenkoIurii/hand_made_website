@@ -24,9 +24,11 @@ class MainController extends AppController
             'Изделия ручной работы',
             'Хэндмэйд, ручная работа, игрушки, подарки');
 
+        $block = 'block';
         $gallery = 'gallery';
+        $blocks_items = $this->appModel->getData($block);
         $gallery_items = $this->appModel->getData($gallery);
 
-        $this->set(compact('gallery_items'));
+        $this->set(compact('gallery_items', 'blocks_items'));
     }
 }
