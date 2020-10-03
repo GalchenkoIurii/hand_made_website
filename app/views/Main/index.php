@@ -70,11 +70,8 @@ foreach ($blocks_items as $item => $value) {
     <div class="services-wrap" id="services">
         <div class="container">
             <div class="text-center">
-                <h3 class="heading">Что я делаю</h3>
-                <p class="main_p mb-5 text-center mx-auto">Nulla pellentesque mi non laoreet eleifend.
-                    Integer porttitor mollisar curae suspendisse mauris posuere accumsan massa posuere lacus
-                    convallis tellus interdum. Amet nullam fringilla nibh nulla convallis ut venenatis purus
-                    sit arcu sociis.</p>
+                <h3 class="heading"><?= $blocks['services']['title']; ?></h3>
+                <p class="main_p mb-5 text-center mx-auto"><?= $blocks['services']['description']; ?></p>
             </div>
             <div class="row">
                 <div class="col-lg-4 col-md-6 services-grid py-sm-5 py-4">
@@ -105,10 +102,8 @@ foreach ($blocks_items as $item => $value) {
         </div>
     </div>
     <section class="contacts" id="contact">
-        <h3 class="heading mb-5">Контакты</h3>
-        <p class="contacts_p mb-5 text-center mx-auto">Nulla pellentesque mi non laoreet eleifend. Integer
-            porttitor mollisar curae suspendisse mauris posuere accumsan massa posuere lacus convallis
-            tellus interdum. Amet nullam fringilla nibh nulla convallis ut venenatis purus sit arcu sociis.</p>
+        <h3 class="heading mb-5"><?= $blocks['contact']['title']; ?></h3>
+        <p class="contacts_p mb-5 text-center mx-auto"><?= $blocks['contact']['description']; ?></p>
         <div class="contacts_grid mt-5 mx-auto text-center">
             <?php
             require_once ROOT . '/form/form.php';
