@@ -13,8 +13,9 @@ use core\base\Model;
 
 class AppModel extends Model
 {
-    public function getData($query)
+    public function getData($table)
     {
+        $query = "SELECT * FROM $table";
         return $this->db->query($query)->fetchAll();
     }
 }

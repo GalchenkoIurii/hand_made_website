@@ -53,7 +53,7 @@ if (!empty($_POST)) {
             foreach ($gallery_items as $item) { ?>
                 <div class="gallery-top mt-5">
                     <a href="#gal<?= $item['id']; ?>">
-                        <img src="<?= $item['img']; ?>" alt="<?= $item['title']; ?>" class="img-fluid"></a>
+                        <img src="images/<?= $item['img']; ?>" alt="<?= $item['title']; ?>" class="img-fluid"></a>
                     <h4><?= $item['title']; ?></h4>
                 </div>
             <?php } ?>

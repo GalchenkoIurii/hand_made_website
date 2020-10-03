@@ -24,8 +24,8 @@ class MainController extends AppController
             'Изделия ручной работы',
             'Хэндмэйд, ручная работа, игрушки, подарки');
 
-        $query = "SELECT * FROM gallery";
-        $gallery_items = $this->appModel->getData($query);
+        $gallery = 'gallery';
+        $gallery_items = $this->appModel->getData($gallery);
 
         $this->set(compact('gallery_items'));
     }
